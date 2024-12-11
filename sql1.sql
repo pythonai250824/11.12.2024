@@ -1,8 +1,10 @@
-CREATE TABLE COMPANY(
-    ID INT PRIMARY KEY NOT NULL,
-    NAME TEXT NOT NULL,
-    AGE INT NOT NULL,
-    ADDRESS CHAR(50),
-    SALARY REAL
+-- primary key PK
+create table company(
+   ID INT PRIMARY KEY NOT NULL,
+   NAME TEXT NOT NULL,
+   AGE INT NOT NULL,
+   ADDRESS char(50),
+   SALARY REAL default 0
 );
 
+-- DROP TABLE company;
